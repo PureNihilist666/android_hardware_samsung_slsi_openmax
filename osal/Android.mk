@@ -172,8 +172,8 @@ ifeq ($(TARGET_BOARD_PLATFORM),exynos4)
 LOCAL_CFLAGS += -DUSE_MFC5X_ALIGNMENT
 endif
 
-LOCAL_SHARED_LIBRARIES := libion libhardware libnativewindow libui
-LOCAL_STATIC_LIBRARIES := liblog libcutils libExynosVideoApi
+LOCAL_SHARED_LIBRARIES := libion libhardware libnativewindow libui liblog
+LOCAL_STATIC_LIBRARIES := libcutils libExynosVideoApi
 
 LOCAL_C_INCLUDES := \
 	$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include \
